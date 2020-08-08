@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<script src="handleChange.js"></script>
+<script src="b2d.js"></script>
+<link rel="stylesheet" href="b2d.css">
+
+<head>
+  <span id="head"> Binary to decimal converter </span>
+</head>
+
+<body>
+  <h2> Enter only binary numbers(8 digit) </h2>
+  <input type="text" id="bnum" placeholder="binary value" maxlength="8"
+    onchange="handleChange(this.value) "><br><br><br>
+  <label id="danger" hidden> Only 0s and 1s are allowed</label>
+  <h3 id="output"></h3>
+</body>
+
+</html>
